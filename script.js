@@ -4,7 +4,7 @@ const cors = require("cors")
 app.use(cors())
 app.use(express.json())
 
-app.listen(3000 || process.env.PORT);
+app.listen(process.env.PORT);
 
 let rooms = []
 let bookings = []
